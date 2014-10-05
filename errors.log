@@ -1,0 +1,89 @@
+2014-09-02 07:48:00 Error: не известный код поставщика!
+    at null._onTimeout (/root/www/autofan/lib/controllers/shipper.js:163:26)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+2014-09-02 07:51:16 Error: не верный формат файла!
+    at null._onTimeout (/root/www/autofan/lib/controllers/shipper.js:111:33)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+2014-09-03 06:03:54 Error: Error setting TTL index on collection : sessions
+    at /root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:161:23
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1404:28
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1542:30
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:159:22
+    at commandHandler (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:678:48)
+    at Db._executeQueryCommand (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1802:12)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.toArray (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:158:10)
+    at Cursor.toArray (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:10:20)
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1541:65
+2014-09-03 06:03:54 Error: no open connections
+    at Db._executeQueryCommand (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1802:21)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:22:20)
+    at Collection.findOne (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:145:10)
+    at /root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:214:18
+    at MongoStore._get_collection (/root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:148:21)
+    at MongoStore.get (/root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:213:10)
+    at Object.session [as handle] (/root/www/autofan/node_modules/express/node_modules/connect/lib/middleware/session.js:309:11)
+    at next (/root/www/autofan/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.cookieParser [as handle] (/root/www/autofan/node_modules/express/node_modules/connect/lib/middleware/cookieParser.js:60:5)
+2014-09-04 14:35:46 Error: Error setting TTL index on collection : sessions
+    at /root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:161:23
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1404:28
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1542:30
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:159:22
+    at commandHandler (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:678:48)
+    at Db._executeQueryCommand (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1802:12)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.toArray (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:158:10)
+    at Cursor.toArray (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:10:20)
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1541:65
+2014-09-04 14:35:46 Error: no open connections
+    at Db._executeQueryCommand (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1802:21)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:22:20)
+    at Collection.findOne (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:145:10)
+    at /root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:214:18
+    at MongoStore._get_collection (/root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:148:21)
+    at MongoStore.get (/root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:213:10)
+    at Object.session [as handle] (/root/www/autofan/node_modules/express/node_modules/connect/lib/middleware/session.js:309:11)
+    at next (/root/www/autofan/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.cookieParser [as handle] (/root/www/autofan/node_modules/express/node_modules/connect/lib/middleware/cookieParser.js:60:5)
+2014-09-05 11:02:17 Error: Error setting TTL index on collection : sessions
+    at /root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:161:23
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1404:28
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1542:30
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:159:22
+    at commandHandler (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:678:48)
+    at Db._executeQueryCommand (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1802:12)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.toArray (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:158:10)
+    at Cursor.toArray (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:10:20)
+    at /root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1541:65
+2014-09-05 11:02:17 Error: no open connections
+    at Db._executeQueryCommand (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:1802:21)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:729:13)
+    at Cursor.nextObject (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/scope.js:22:20)
+    at Collection.findOne (/root/www/autofan/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:145:10)
+    at /root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:214:18
+    at MongoStore._get_collection (/root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:148:21)
+    at MongoStore.get (/root/www/autofan/node_modules/connect-mongo/lib/connect-mongo.js:213:10)
+    at Object.session [as handle] (/root/www/autofan/node_modules/express/node_modules/connect/lib/middleware/session.js:309:11)
+    at next (/root/www/autofan/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.cookieParser [as handle] (/root/www/autofan/node_modules/express/node_modules/connect/lib/middleware/cookieParser.js:60:5)
+2014-09-09 14:45:57 Error: Error setting TTL index on collection : sessions
+    at D:\www\autofan\node_modules\connect-mongo\lib\connect-mongo.js:161:23
+    at D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1404:28
+    at D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1542:30
+    at D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:159:22
+    at commandHandler (D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:678:48)
+    at Db._executeQueryCommand (D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1802:12)
+    at Cursor.nextObject (D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:729:13)
+    at Cursor.toArray (D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\cursor.js:158:10)
+    at Cursor.toArray (D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\scope.js:10:20)
+    at D:\www\autofan\node_modules\connect-mongo\node_modules\mongodb\lib\mongodb\db.js:1541:65
+2014-09-09 14:53:01 Error: не верный формат файла!
+    at null._onTimeout (D:\www\autofan\lib\controllers\shipper.js:111:33)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+2014-09-09 14:53:40 Error: не верный формат файла!
+    at null._onTimeout (D:\www\autofan\lib\controllers\shipper.js:111:33)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
